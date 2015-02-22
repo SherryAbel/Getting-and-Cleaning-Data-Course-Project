@@ -1,6 +1,6 @@
 The process to collect, work with, and clean a data set
 =======================================================
-* ### Original dataset
+* ### Original dataset  
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * ### The requirements to prepare tidy data:
   1. Merges the training and the test sets to create one data set.
