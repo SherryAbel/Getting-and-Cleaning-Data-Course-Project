@@ -1,0 +1,85 @@
+DATA DICTIONARY - UCI-HAR-Dateset-tidy-version
+
+1   Activity    activity label
+                WALKING
+                WALKING_UPSTAIRS
+                WALKING_DOWNSTAIRS
+                SITTING
+                STANDING
+                LAYING
+
+2   subjectID   volunteer id
+                1..30 .Unique identifier of the subject who carried out the experiment
+
+3-68            the mean of each feature for each activity and each subject
+                feature data come from the original file X_train.txt and X_test.txt 
+    tBodyAcc.mean.X.mean        mean of tBodyAcc.mean.X, the following are the same
+    tBodyAcc.mean.Y.mean
+    tBodyAcc.mean.Z.mean
+    tGravityAcc.mean.X.mean
+    tGravityAcc.mean.Y.mean
+    tGravityAcc.mean.Z.mean
+    tBodyAccJerk.mean.X.mean
+    tBodyAccJerk.mean.Y.mean
+    tBodyAccJerk.mean.Z.mean
+    tBodyGyro.mean.X.mean
+    tBodyGyro.mean.Y.mean
+    tBodyGyro.mean.Z.mean
+    tBodyGyroJerk.mean.X.mean
+    tBodyGyroJerk.mean.Y.mean
+    tBodyGyroJerk.mean.Z.mean
+    tBodyAccMag.mean.mean
+    tGravityAccMag.mean.mean
+    tBodyAccJerkMag.mean.mean
+    tBodyGyroMag.mean.mean
+    tBodyGyroJerkMag.mean.mean
+    fBodyAcc.mean.X.mean
+    fBodyAcc.mean.Y.mean
+    fBodyAcc.mean.Z.mean
+    fBodyAccJerk.mean.X.mean
+    fBodyAccJerk.mean.Y.mean
+    fBodyAccJerk.mean.Z.mean
+    fBodyGyro.mean.X.mean
+    fBodyGyro.mean.Y.mean
+    fBodyGyro.mean.Z.mean
+    fBodyAccMag.mean.mean
+    fBodyBodyAccJerkMag.mean.mean
+    fBodyBodyGyroMag.mean.mean
+    fBodyBodyGyroJerkMag.mean.mean
+    tBodyAcc.std.X.mean
+    tBodyAcc.std.Y.mean
+    tBodyAcc.std.Z.mean
+    tGravityAcc.std.X.mean
+    tGravityAcc.std.Y.mean
+    tGravityAcc.std.Z.mean
+    tBodyAccJerk.std.X.mean
+    tBodyAccJerk.std.Y.mean
+    tBodyAccJerk.std.Z.mean
+    tBodyGyro.std.X.mean
+    tBodyGyro.std.Y.mean
+    tBodyGyro.std.Z.mean
+    tBodyGyroJerk.std.X.mean
+    tBodyGyroJerk.std.Y.mean
+    tBodyGyroJerk.std.Z.mean
+    tBodyAccMag.std.mean
+    tGravityAccMag.std.mean
+    tBodyAccJerkMag.std.mean
+    tBodyGyroMag.std.mean
+    tBodyGyroJerkMag.std.mean
+    fBodyAcc.std.X.mean
+    fBodyAcc.std.Y.mean
+    fBodyAcc.std.Z.mean
+    fBodyAccJerk.std.X.mean
+    fBodyAccJerk.std.Y.mean
+    fBodyAccJerk.std.Z.mean
+    fBodyGyro.std.X.mean
+    fBodyGyro.std.Y.mean
+    fBodyGyro.std.Z.mean
+    fBodyAccMag.std.mean
+    fBodyBodyAccJerkMag.std.mean
+    fBodyBodyGyroMag.std.mean
+    fBodyBodyGyroJerkMag.std.mean
+
+NOTE: for detail information about this dataset
+visit the website at:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones       
