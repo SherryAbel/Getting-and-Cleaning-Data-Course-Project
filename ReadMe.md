@@ -9,7 +9,7 @@ The process to collect, work with, and clean a data set
   4. Appropriately labels the data set with descriptive variable names. 
   5. From the data set in step 4, creates a second, independent tidy data set 
      with the average of each variable for each activity and each subject.
-* ### Merge the data from _train_ and _test_ folders
+* ### Merge the data from _train_ and _test_ folders  
   ```javescript  
   colnames:     ActivityID,       subjectID,          V1-V66 
   observation:  y_train.txt,      subject_train.txt,  X_train.txt
@@ -18,7 +18,7 @@ The process to collect, work with, and clean a data set
   + 7352 obs. of train group, 2947 obs. of test group  
   + 10299 obs. of combined dataset
 * ### Name ActivityID with descriptive activity names, then remove ActivityID column
-  merge(combined dataset, activity_labels.txt, by = activityID)
+  merge(combined dataset, activity_labels.txt, by = activityID)  
   ```javescript  
   colnames:     Activity,               subjectID,          V1-V66 
   observation:  activity_labels.txt,    subject_train.txt,  X_train.txt
